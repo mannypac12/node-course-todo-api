@@ -5,7 +5,7 @@ const {Todo} = require('./../server/models/todo');
 
 const {User} = require('./../server/models/user');
 
-var user_id = '5bbb50771f7fb50364a1954999'
+var user_id = '5bbb50771f7fb50364a19549'
 
 User.findById(user_id).then((user) => {
     if (!user) {
